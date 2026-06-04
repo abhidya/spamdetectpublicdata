@@ -13,6 +13,18 @@ Notebook and helper-code workspace for experimenting with text classification ov
 
 Open the notebooks in Jupyter, VS Code, or another notebook viewer. The helper script uses older versions of Gensim/scikit-learn APIs, so expect dependency updates before rerunning end to end.
 
+## Reproducible demo
+
+Run a deterministic notebook-free baseline over the first 2,500 training rows:
+
+```sh
+python3 scripts/demo.py
+```
+
+The demo trains a small standard-library Naive Bayes classifier, prints
+validation metrics, and writes `outputs/demo_summary.md`. It is a smoke-test
+baseline, not a claim that the original notebook models were fully retrained.
+
 Lightweight syntax check for the reusable helper:
 
 ```sh

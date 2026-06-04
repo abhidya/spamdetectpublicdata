@@ -1,0 +1,2 @@
+# The reproducible smoke demo uses only the Python standard library.
+# Legacy notebooks may require pandas, scikit-learn, gensim, scipy, nltk, and jupyter.
