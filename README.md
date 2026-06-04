@@ -13,6 +13,12 @@ Notebook and helper-code workspace for experimenting with text classification ov
 
 Open the notebooks in Jupyter, VS Code, or another notebook viewer. The helper script uses older versions of Gensim/scikit-learn APIs, so expect dependency updates before rerunning end to end.
 
+Lightweight syntax check for the reusable helper:
+
+```sh
+python -m compileall pd_doc2vec.py
+```
+
 ## Caveats
 
 - This is an exploratory ML/data artifact, not a packaged library.
